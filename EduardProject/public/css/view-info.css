@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+.table-container {
+    height: 550px;
+    width: 100%;
+}
+
+.table-box {
+    border-radius: 10px;
+    border: 1px solid #009879;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table th, .table td {
+    padding: 15px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+h1 {
+    font-size: 27px;
+    color: #3d405b;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.delete-user, .edit-user, .done-a {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.delete-edit-container {
+    width: 95%;
+}
+
+.delete {
+    padding-left: 10px;
+    float: left;
+}
+
+.edit {
+    padding-right: 10px;
+    float: right;
+}
+
+.delete-user {
+    color: #d62828;
+}
+
+.edit-user {
+    color: #5390d9;
+}
+
+.done-button {
+    background-color: #009879;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    opacity: 0.9;
+}
+
+.done {
+    padding-bottom: 10px;
+}
+
+.done-button:hover {
+    opacity: 2;
+}
+
+.table-box hr {
+    width: 95%;
+}

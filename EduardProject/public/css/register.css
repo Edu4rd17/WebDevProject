@@ -1,0 +1,63 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+
+.form-container {
+    padding: 20px;
+    background-color: white;
+}
+
+input[type=text], input[type=password], input[type=number], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email] {
+    background-color: #ddd;
+    margin-bottom: 25px;
+}
+
+.registrationbtn {
+    background-color: #55d6aa;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    opacity: 0.9;
+}
+
+.registrationbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+fieldset {
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+.already-exists {
+    font-size: 14px;
+    color: #536162;
+}

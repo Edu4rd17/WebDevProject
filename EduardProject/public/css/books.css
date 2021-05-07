@@ -1,0 +1,80 @@
+body {
+    background-color: #e9ecef;
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 0;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 30px 20px 30px;
+    transition: box-shadow .3s;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #f3f4ed;
+}
+
+.box1 img {
+    margin: 0 auto;
+}
+
+.box1:hover {
+    box-shadow: 20px 20px 20px rgba(33, 33, 33, .2);
+}
+
+h1 {
+    font-size: 22px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.author {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #393e46;
+}
+
+.price {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.addtocart-button {
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #55d6aa;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    opacity: 0.9;
+}
+
+.addtocart-button:hover {
+    opacity: 1;
+}
+
+.image-container {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)), url("../images/books2.jpg");
+    height: 400px;
+    background-size: cover;
+}
+
+.herotext {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    top: 12rem;
+    right: 220px;
+    position: absolute;
+    text-shadow: 3px 2px 3px #000;
+}

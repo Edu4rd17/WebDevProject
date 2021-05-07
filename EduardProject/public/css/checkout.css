@@ -1,0 +1,26 @@
+.confirmation {
+    text-align: center;
+    padding-top: 150px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.return-home {
+    background-color: #009879;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    opacity: 0.9;
+}
+
+.return-home:hover {
+    opacity: 1;
+}

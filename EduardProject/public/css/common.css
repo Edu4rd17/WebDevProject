@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+body {
+    margin: 0;
+    background: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #55d6aa;
+    z-index: 1;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 65px;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.viewinfo {
+    color: #008CBA;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav li a::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+.viewinfo::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #444;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+nav button {
+    margin-left: 40px;
+}
+
+.button {
+    background-color: #008CBA;
+    color: black;
+    border: 1px solid #008CBA;
+    padding: 10px 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.login {
+    background-color: #008CBA;
+    color: black;
+    border: 1px solid #008CBA;
+    padding: 10px 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: grey;
+}
+
+.logout {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.logout:hover {
+    background-color: grey;
+}
+
+p.userlogged {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+.cart {
+    margin-left: 50px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.cart a {
+    color: #444;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cart a::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #444;
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+.footer {
+    background-color: #26272b;
+    color: #737373;
+}
+
+.container-footer {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.footer-box1 {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.footer-box2 {
+    text-align: center;
+}
+
+.footer-text1 {
+    text-align: center;
+}
+
+.about-text {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+

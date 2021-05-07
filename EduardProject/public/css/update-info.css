@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f5f1;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+input {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    height: 30px;
+    background: #f1f1f1;
+}
+
+input:focus {
+    background-color: #ddd;
+    margin-bottom: 25px;
+}
+
+.form-container-two {
+    padding: 20px;
+}
+
+
+.update-fieldset {
+    background-color: #fff;
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+h2 {
+    font-size: 27px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.submit-edit-btn {
+    background-color: #55d6aa;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    opacity: 0.9;
+}
+
+.submit-edit-btn:hover {
+    opacity: 1;
+}
+
+.already-exists {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #536162;
+}
+
+.details-updated {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #536162;
+}
+
+.done-editing {
+    background-color: #008CBA;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+    float: right;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    opacity: 0.9;
+}
+
+.done-editing:hover {
+    opacity: 1;
+}

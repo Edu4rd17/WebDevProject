@@ -1,0 +1,121 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-size: 17px;
+}
+
+.styled-table th, .styled-table td {
+    padding: 15px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 5px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+}
+
+.active-row td p {
+    font-size: 22px;
+}
+
+.add-minus, .quantity-input {
+    width: 25px;
+    font-size: 15px;
+}
+
+.add-minus {
+    background-color: #009879;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.add-minus:hover {
+    opacity: 1;
+}
+
+form {
+    padding-top: 15px;
+}
+
+.remove-book {
+    background-color: red;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.remove-book:hover {
+    opacity: 1;
+}
+
+.total-price {
+    display: flex;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.text-total, .allprice {
+    font-size: 22px;
+}
+
+.checkout {
+    background-color: #009879;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    opacity: 0.9;
+}
+
+.checkout:hover {
+    opacity: 1;
+}
+
+.allprice {
+    margin-right: 20px;
+}
+
+.checkout-button {
+    padding-top: 5px;
+}
+
